@@ -149,6 +149,21 @@
 .image1 {
   color:#000000;
 }
+._文本框 {
+  color:#000000;
+  text-align:left;
+}
+._复选框 {
+  text-align:left;
+}
+._下拉列表框 {
+  color:#000000;
+  text-align:left;
+}
+._多行文本框 {
+  color:#000000;
+  text-align:left;
+}
 ._表格 {
 }
 ._文本段落 {
@@ -159,7 +174,7 @@
   font-weight:normal;
   font-style:normal;
 }
-._文本框 {
+._文本框1 {
   color:#000000;
   text-align:left;
 }
@@ -170,6 +185,13 @@
   text-align:left;
 }
 ._文本段落1 {
+  text-align:left;
+}
+._一级标题 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
   text-align:left;
 }
 ._形状1 {

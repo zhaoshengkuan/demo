@@ -1,5 +1,6 @@
 ﻿body {
   margin:0px;
+  background-color:rgba(242, 242, 242, 1);
   background-image:none;
   position:static;
   left:auto;
@@ -12,21 +13,21 @@
   position:absolute;
   z-index:0;
 }
-#u4977_img {
+#u851_img {
   position:absolute;
   left:0px;
   top:0px;
   width:1112px;
   height:566px;
 }
-#u4977 {
+#u851 {
   position:absolute;
   left:8px;
   top:13px;
   width:1112px;
   height:566px;
 }
-#u4978 {
+#u852 {
   position:absolute;
   left:2px;
   top:275px;
