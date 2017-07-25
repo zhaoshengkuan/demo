@@ -1,0 +1,588 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>全屏浮层</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/全屏浮层/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/全屏浮层/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17188" class="ax_default shape">
+        <div id="u17188_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17189" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17190" class="ax_default shape">
+        <div id="u17190_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17191" class="text">
+          <p><span>&nbsp;&nbsp; 隐藏的信息提示——全屏浮层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17192" class="ax_default paragraph">
+        <div id="u17192_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17193" class="text">
+          <p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">当需要说明的信息很多，而且不是特别重要时，不需要将信息完全展示出来，可以将信息隐藏，操作后，再通过</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;color:#1E1E1E;">全屏透明遮罩浮层</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">展示。</span></p><p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">适用于隐藏的说明信息</span><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#FF0000;">较多</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">的情况。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17194" class="ax_default paragraph">
+        <div id="u17194_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17195" class="text">
+          <p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">在页面只是展示标题或者部分关键内容，</span></p><p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">比如某个名词或者icon，</span></p><p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">点击</span></p><p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">会通过全屏遮罩的浮层展示更多详细内容的信息提示。</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#1E1E1E;">浮层出现和消失都有渐变效果，即200ms的渐变过程，即：</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#1E1E1E;">在点击触发显示的按钮或icon后，浮层在200ms内逐渐显示；</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#1E1E1E;">点击关闭“×”后，浮层在200ms内逐渐隐藏。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17196" class="ax_default shape">
+        <div id="u17196_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17197" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17198" class="ax_default shape">
+        <div id="u17198_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17199" class="text">
+          <p><span>页面内容</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17200" class="ax_default shape">
+        <div id="u17200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17201" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17202" class="ax_default paragraph">
+        <div id="u17202_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17203" class="text">
+          <p><span>内容文案内容文案内容文案内容文案内容文案内容文案内容文案内容文案内容文案。</span></p><p><span><br></span></p><p><span>内容文案内容文案内容文案内容文案内容文案内容文案内容文案内容文案内容文案。</span></p><p><span><br></span></p><p><span>内容文案内容文案内容文案内容文案内容文案内容文案内容文案内容文案内容文案。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17204" class="ax_default paragraph">
+        <div id="u17204_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17205" class="text">
+          <p><span>浮层标题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17206" class="ax_default" data-width="184" data-height="40">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u17207" class="compound ax_default _水平线" WidgetHeight="1" WidgetWidth="66" CompoundMode="true">
+          <img id="u17207_img" class="singleImg img " src="images/全屏浮层/u17207.png"/>
+          <div id="u17207p000" class="ax_vector_shape" WidgetTopLeftX="-0.485294117647059" WidgetTopLeftY="-0.25" WidgetTopRightX="0.485294117647059" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.485294117647059" WidgetBottomLeftY="0" WidgetBottomRightX="0.485294117647059" WidgetBottomRightY="0">
+            <img id="u17207p000_img" class="img " src="images/全屏浮层/u17207p000.png"/>
+          </div>
+          <div id="u17207p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="0" WidgetTopRightX="3.3" WidgetTopRightY="0" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="3.3" WidgetBottomRightY="0.05">
+            <img id="u17207p001_img" class="img " src="images/全屏浮层/u17207p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u17208" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17209" class="ax_default paragraph">
+          <div id="u17209_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17210" class="text">
+            <p><span>半透明背景遮罩，</span></p><p><span>遮住所有内容；</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17211" class="ax_default" data-width="302" data-height="40">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u17212" class="compound ax_default _水平线" WidgetHeight="1" WidgetWidth="66" CompoundMode="true">
+          <img id="u17212_img" class="singleImg img " src="images/全屏浮层/u17207.png"/>
+          <div id="u17212p000" class="ax_vector_shape" WidgetTopLeftX="-0.485294117647059" WidgetTopLeftY="0" WidgetTopRightX="0.485294117647059" WidgetTopRightY="0" WidgetBottomLeftX="-0.485294117647059" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.485294117647059" WidgetBottomRightY="0.25">
+            <img id="u17212p000_img" class="img " src="images/全屏浮层/u17212p000.png"/>
+          </div>
+          <div id="u17212p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="0" WidgetTopRightX="3.3" WidgetTopRightY="0" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="3.3" WidgetBottomRightY="0.05">
+            <img id="u17212p001_img" class="img " src="images/全屏浮层/u17212p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u17213" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17214" class="ax_default paragraph">
+          <div id="u17214_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17215" class="text">
+            <p><span>关闭按钮“×”始终悬浮在页面底部</span></p><p><span>点击&quot;×&quot;所在的整行区域后关闭浮层。</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17216" class="ax_default shape">
+        <div id="u17216_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17217" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17218" class="ax_default shape">
+        <div id="u17218_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17219" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17220" class="ax_default shape">
+        <div id="u17220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17221" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17222" class="ax_default paragraph">
+        <div id="u17222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17223" class="text">
+          <p><span>页面标题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u17224" class="ax_default image">
+        <img id="u17224_img" class="img " src="images/首屏线/u14558.png"/>
+        <!-- Unnamed () -->
+        <div id="u17225" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17226" class="ax_default" data-width="35" data-height="45">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17227" class="ax_default shape">
+          <div id="u17227_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17228" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u17229" class="ax_default image">
+          <img id="u17229_img" class="img " src="images/首屏线/u14563.png"/>
+          <!-- Unnamed () -->
+          <div id="u17230" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17231" class="ax_default paragraph">
+        <div id="u17231_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17232" class="text">
+          <p><span>概述：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17233" class="ax_default paragraph">
+        <div id="u17233_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17234" class="text">
+          <p><span>细节说明：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17235" class="ax_default" data-width="320" data-height="65">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17236" class="ax_default shape">
+          <div id="u17236_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17237" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17238" class="ax_default paragraph">
+          <div id="u17238_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17239" class="text">
+            <p><span>页面标题</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u17240" class="ax_default image">
+          <img id="u17240_img" class="img " src="images/首屏线/u14558.png"/>
+          <!-- Unnamed () -->
+          <div id="u17241" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u17242" class="ax_default" data-width="35" data-height="45">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u17243" class="ax_default shape">
+            <div id="u17243_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u17244" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Image) -->
+          <div id="u17245" class="ax_default image">
+            <img id="u17245_img" class="img " src="images/首屏线/u14563.png"/>
+            <!-- Unnamed () -->
+            <div id="u17246" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17247" class="ax_default paragraph">
+        <div id="u17247_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17248" class="text">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u17249" class="ax_default image">
+        <img id="u17249_img" class="img " src="images/首屏线/u14585.png"/>
+        <!-- Unnamed () -->
+        <div id="u17250" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17251" class="ax_default shape">
+        <div id="u17251_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17252" class="text">
+          <p><span>页面内容</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17253" class="ax_default shape">
+        <div id="u17253_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17254" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17255" class="ax_default paragraph">
+        <div id="u17255_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17256" class="text">
+          <p><span>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17257" class="ax_default paragraph">
+        <div id="u17257_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17258" class="text">
+          <p><span>浮层标题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17259" class="ax_default paragraph">
+        <div id="u17259_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17260" class="text">
+          <p><span>内容内容内容内容内容内容内容内容内内容内容内容内容内容内容容内容内容内容内</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17261" class="ax_default paragraph">
+        <div id="u17261_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17262" class="text">
+          <p><span>内容内容内容内容内容内容内容内容内内容内容内容内容内容内容容内容内容内容内</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17263" class="ax_default paragraph">
+        <div id="u17263_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17264" class="text">
+          <p><span>内容内容内容内容内容内容内容内容内内容内容内容内容内容内容容内容内容内容内内容内容内容内容内容内容内容内容内内容内容内容内容内容内容容内容内容内容内</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17265" class="ax_default shape">
+        <img id="u17265_img" class="img " src="images/全屏浮层/u17265.png"/>
+        <!-- Unnamed () -->
+        <div id="u17266" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u17267" class="compound ax_default _水平线" WidgetHeight="1" WidgetWidth="66" CompoundMode="true">
+        <img id="u17267_img" class="singleImg img " src="images/全屏浮层/u17207.png"/>
+        <div id="u17267p000" class="ax_vector_shape" WidgetTopLeftX="-0.485294117647059" WidgetTopLeftY="0" WidgetTopRightX="0.485294117647059" WidgetTopRightY="0" WidgetBottomLeftX="-0.485294117647059" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.485294117647059" WidgetBottomRightY="0.25">
+          <img id="u17267p000_img" class="img " src="images/全屏浮层/u17212p000.png"/>
+        </div>
+        <div id="u17267p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="0" WidgetTopRightX="3.3" WidgetTopRightY="0" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="3.3" WidgetBottomRightY="0.05">
+          <img id="u17267p001_img" class="img " src="images/全屏浮层/u17212p001.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u17268" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17269" class="ax_default paragraph">
+        <div id="u17269_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17270" class="text">
+          <p><span>若内容超过一屏，则底部文案呈现被隐藏的样式，具体参考视觉效果。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17271" class="ax_default" data-width="282" data-height="60">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u17272" class="compound ax_default _水平线" WidgetHeight="1" WidgetWidth="66" CompoundMode="true">
+          <img id="u17272_img" class="singleImg img " src="images/全屏浮层/u17207.png"/>
+          <div id="u17272p000" class="ax_vector_shape" WidgetTopLeftX="-0.485294117647059" WidgetTopLeftY="-0.25" WidgetTopRightX="0.485294117647059" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.485294117647059" WidgetBottomLeftY="0" WidgetBottomRightX="0.485294117647059" WidgetBottomRightY="0">
+            <img id="u17272p000_img" class="img " src="images/全屏浮层/u17207p000.png"/>
+          </div>
+          <div id="u17272p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="0" WidgetTopRightX="3.3" WidgetTopRightY="0" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="3.3" WidgetBottomRightY="0.05">
+            <img id="u17272p001_img" class="img " src="images/全屏浮层/u17207p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u17273" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17274" class="ax_default paragraph">
+          <div id="u17274_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17275" class="text">
+            <p><span>页面标题居中，固定在页面顶部，</span></p><p><span>即页面滑动时，仅下方内容滚动，</span></p><p><span>标题不动</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17276" class="ax_default shape">
+        <div id="u17276_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17277" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17278" class="ax_default" data-width="287" data-height="100">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u17279" class="compound ax_default _水平线" WidgetHeight="1" WidgetWidth="66" CompoundMode="true">
+          <img id="u17279_img" class="singleImg img " src="images/全屏浮层/u17207.png"/>
+          <div id="u17279p000" class="ax_vector_shape" WidgetTopLeftX="-0.471428571428571" WidgetTopLeftY="-0.25" WidgetTopRightX="0.471428571428571" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.471428571428571" WidgetBottomLeftY="0" WidgetBottomRightX="0.471428571428571" WidgetBottomRightY="0">
+            <img id="u17279p000_img" class="img " src="images/全屏浮层/u17279p000.png"/>
+          </div>
+          <div id="u17279p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="0" WidgetTopRightX="3.3" WidgetTopRightY="0" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="3.3" WidgetBottomRightY="0.05">
+            <img id="u17279p001_img" class="img " src="images/全屏浮层/u17279p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u17280" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u17281" class="ax_default paragraph">
+          <div id="u17281_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u17282" class="text">
+            <p><span>如果内容少于一屏，页面不可以滑动</span></p><p><span>如果内容多于一屏，</span></p><p><span>浮层上出现滚动条，</span></p><p><span>不滑动内容时，滚动条不显示，</span></p><p><span>滑动页面时才显示</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u17283" class="ax_default image">
+        <img id="u17283_img" class="img " src="images/首屏线/u14585.png"/>
+        <!-- Unnamed () -->
+        <div id="u17284" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17285" class="ax_default" data-width="33" data-height="33">
+
+        <!-- Unnamed (椭圆形) -->
+        <div id="u17286" class="ax_default shape">
+          <img id="u17286_img" class="img " src="images/全屏浮层/u17286.png"/>
+          <!-- Unnamed () -->
+          <div id="u17287" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u17288" class="ax_default" data-width="16.2634559672906" data-height="16.2634559672906">
+
+          <!-- Unnamed (水平线) -->
+          <div id="u17289" class="ax_default _水平线">
+            <img id="u17289_img" class="img " src="images/全屏浮层/u17289.png"/>
+            <!-- Unnamed () -->
+            <div id="u17290" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u17291" class="ax_default _水平线">
+            <img id="u17291_img" class="img " src="images/全屏浮层/u17289.png"/>
+            <!-- Unnamed () -->
+            <div id="u17292" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u17293" class="ax_default" data-width="33" data-height="33">
+
+        <!-- Unnamed (椭圆形) -->
+        <div id="u17294" class="ax_default shape">
+          <img id="u17294_img" class="img " src="images/全屏浮层/u17286.png"/>
+          <!-- Unnamed () -->
+          <div id="u17295" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u17296" class="ax_default" data-width="16.2634559672907" data-height="16.2634559672906">
+
+          <!-- Unnamed (水平线) -->
+          <div id="u17297" class="ax_default _水平线">
+            <img id="u17297_img" class="img " src="images/全屏浮层/u17289.png"/>
+            <!-- Unnamed () -->
+            <div id="u17298" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u17299" class="ax_default _水平线">
+            <img id="u17299_img" class="img " src="images/全屏浮层/u17289.png"/>
+            <!-- Unnamed () -->
+            <div id="u17300" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,5 @@
 ﻿body {
   margin:0px;
-  background-color:rgba(242, 242, 242, 1);
   background-image:none;
   position:static;
   left:auto;
@@ -1256,8 +1255,8 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'ArialMT', 'Arial';
-  font-weight:400;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
   font-style:normal;
   font-size:14px;
 }
@@ -1267,8 +1266,8 @@
   top:917px;
   width:191px;
   height:20px;
-  font-family:'ArialMT', 'Arial';
-  font-weight:400;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
   font-style:normal;
   font-size:14px;
 }
@@ -1351,7 +1350,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:276px;
+  width:277px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -1360,8 +1359,8 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'ArialMT', 'Arial';
-  font-weight:400;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
@@ -1370,10 +1369,10 @@
   position:absolute;
   left:378px;
   top:1161px;
-  width:276px;
+  width:277px;
   height:40px;
-  font-family:'ArialMT', 'Arial';
-  font-weight:400;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
@@ -1382,7 +1381,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:276px;
+  width:277px;
   white-space:nowrap;
 }
 #u66_div {
